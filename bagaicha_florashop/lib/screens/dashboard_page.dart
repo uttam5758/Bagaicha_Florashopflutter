@@ -30,7 +30,7 @@ class DashboardPage extends StatelessWidget {
                   vertical: 12,
                 ),
               ),
-              child: const Text("Logout"),
+              child: const Text("Logout",style: TextStyle(color: Colors.white),),
             ),
           ],
         ),
