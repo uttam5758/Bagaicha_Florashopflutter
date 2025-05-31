@@ -14,11 +14,7 @@ class DashboardPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text(
-              'Welcome to Bagaicha Florashop!',
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 30),
+
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/login');
@@ -30,7 +26,7 @@ class DashboardPage extends StatelessWidget {
                   vertical: 12,
                 ),
               ),
-              child: const Text("Logout"),
+              child: const Text("Logout",style: TextStyle(color: Colors.white),),
             ),
           ],
         ),
