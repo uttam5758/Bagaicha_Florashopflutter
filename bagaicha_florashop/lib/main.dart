@@ -1,3 +1,4 @@
+import 'package:bagaicha_florashop/screens/bottom_navigation.dart';
 import 'package:bagaicha_florashop/screens/dashboard_page.dart';
 import 'package:bagaicha_florashop/screens/login_page.dart';
 import 'package:bagaicha_florashop/screens/signup_page.dart';
@@ -27,7 +28,7 @@ class BagaichaFlorashopApp extends StatelessWidget {
         '/': (context) => const SplashScreen(),
         '/login': (context) => const LoginPage(),
         '/signup': (context) => const SignUpPage(),
-        '/dashboard': (context) => const DashboardPage(),
+        '/dashboard': (context) =>  BottomNavigation(),
       },
     );
   }
