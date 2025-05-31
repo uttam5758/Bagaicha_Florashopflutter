@@ -27,10 +27,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Dashboard'),
-        automaticallyImplyLeading: false,
-      ),
+
 
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
