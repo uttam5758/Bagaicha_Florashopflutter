@@ -44,7 +44,6 @@ class _LoginPageState extends State<LoginPage> {
               key: _formKey,
               child: Column(
                 children: [
-                  // Image.asset('assets/images/logo.png', height: 170),
                   const SizedBox(height: 10),
                   const Align(
                     alignment: Alignment.centerLeft,
