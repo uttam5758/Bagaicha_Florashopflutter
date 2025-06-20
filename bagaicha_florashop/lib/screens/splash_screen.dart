@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:bagaicha_florashop/screens/login_page.dart';
+import 'package:bagaicha_florashop/feature/auth/presentation/view/loginpage.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
